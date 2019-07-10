@@ -5,9 +5,85 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background: #3C3B3F; 
+  background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
+  background: linear-gradient(to right, #605C3C, #3C3B3F); */
+  background-color: #fafafa;
 }
+
+  .name {
+    font-weight: normal;
+    margin: 0px;
+    font-size: 100px;
+   }
+   
+  body .content p {
+    font-size: 17px;
+    margin: 5px 0 10px 10px;
+    padding: 0px; 
+  }
+
+    a {
+      color: #ff6a00;
+      text-decoration: none!important; 
+    }
+      a:hover {
+        color: #ce181e; 
+      }
+
+    hr{
+      border-color: darkgray
+    }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* ****************Resume Specific**************** */
+
+.github{
+color: #211F1F;
+}
+.github:hover {
+  color:black; }
+
+.linkedin{
+  color: #007bb6;
+}
+.linkedin:hover{
+  color:#02577e;
+}
+
+h1 small {
+  color: #999;
+  display: block;
+  font-size: 0.5em;
+}
+
+h1, h2, h3, h4 {
+  padding-left: 30px;
+}
+
+.synopsis, .position, .education, .project {
+  margin-bottom: 25px;
+  margin-left: -40px;
+  padding-left: 70px;
+}
+
+
+.title {
+  display: block;
+  margin-top: 0px;
+  margin-left: -10px;
+  padding-left: 10px;
+}
+.supplemental {
+  display: block;
+  font-style: italic;
+}
+.time-period {
+  display: block;
+  font-size: smaller;
+  color: #999;
 }
