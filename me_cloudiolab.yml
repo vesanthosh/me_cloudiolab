@@ -1,0 +1,23 @@
+version: '3.7'
+
+services:
+  me-cloudiolab:
+    image: vesanthosh/me-cloudiolab:latest
+    ports:
+      - "3002:3000"
+    networks:
+      - cloudiolab_common_network_mNode
+    deploy:
+      replicas: 1
+      update_config:
+        failure_action: rollback
+        parallelism: 1
+        delay: 10s
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints: [node.hostname == mNode]
+
+networks:
+  cloudiolab_common_network_mNode:
+    external: true
