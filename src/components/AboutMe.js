@@ -27,7 +27,7 @@ class Content extends Component {
                             <p>I moved to Germany for master studies.</p>
                             <p>I now live in Heilbronn, Baden-Württemberg in Deutschland.</p>
                             <p>I read tech journals, blogs, small story books to learn new languages and listen radio a lot.</p>
-                            <p>I watch a lot movies and I used to organize a <a href="https://cricket.cloudiolab.com" target="_blank" rel="noopener noreferrer">weekly Cricket</a> match with friends in Heilbronn.</p>
+                            <p>I watch a lot movies and I used to organize a weekly Cricket match with friends in Heilbronn.</p>
                             <p>I obsess on building my own concept <a href="https://dothings.cloudiolab.com" target="_blank" rel="noopener noreferrer">full stack website</a> when I'm not doing my <a href="https://www.linkedin.com/in/santhoshvenkatesan" target="_blank" rel="noopener noreferrer">professional work</a>.</p>
                             <p>I run my own cluster of 3 servers where I deploy all my service containers to the kubernetes cluster.</p>
                             <p>I also run <a href="https://docker.cloudiolab.com" target="_blank" rel="noopener noreferrer">private docker registry</a> to maintain a production grade service containers of mine.</p>
