@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Link, withRouter } from 'react-router-dom';
-import myImage from '../img/me.jpg'
+import { withRouter } from 'react-router-dom';
 
 class Resume extends Component {
     render() {
