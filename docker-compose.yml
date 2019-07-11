@@ -3,7 +3,7 @@ services:
   cloudiolab:
     image: vesanthosh/me-cloudiolab:latest
     ports:
-      - "3001:3000"
+      - "3002:3002"
     networks:
       - common_network
 
