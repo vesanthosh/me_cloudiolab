@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import myImage from '../img/me.jpg'
 
-class Content extends Component {
+class AboutMe extends Component {
     render() {
         return (
             <div className="container">
@@ -49,4 +49,4 @@ class Content extends Component {
     }
 }
 
-export default (withRouter(Content));
+export default (withRouter(AboutMe));
