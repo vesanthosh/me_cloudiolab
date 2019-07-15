@@ -27,19 +27,24 @@ class Resume extends Component {
                         <hr />
                         <h3>Career History</h3>
                         <div className='position'>
-                            <span className='title'>Master Thesis in IoT Technology</span>
-                            <span className='supplemental'>Bosch Engineering GmbH, Germany</span>
+                            <span className='title'>Master Thesis in IoT Technology <i>- Bosch Engineering GmbH, Germany</i></span>
+                            <span className='supplemental'>Technologies: IoT Edge Gateway, Golang, MQTT, AMQP, JavaScript, Node.js, Databases, ELK Stack, Docker SWARM</span>
                             <span className='time-period'>March, 2019 - Present</span>
                         </div>
                         <div className='position'>
-                            <span className='title'>Service Developer, Intern</span>
-                            <span className='supplemental'>Bosch Engineering GmbH, Germany</span>
+                            <span className='title'>Service Developer, Intern <i>- Bosch Engineering GmbH, Germany</i></span>
+                            <span className='supplemental'>Technologies: JavaScript, Node.js, React.js, Express.js, Databases, Docker, Microservices, REST API and Golang</span>
                             <span className='time-period'>September, 2018 - Fibraury, 2019</span>
                         </div>
                         <div className='position'>
-                            <span className='title'>Freelance Software Engineer</span>
-                            <span className='supplemental'>Clients: Avico, India</span>
-                            <span className='time-period'>May, 2015 - Fibraury, 2017</span>
+                            <span className='title'>Freelance Software Engineer <i>- Self-Employed, India</i></span>
+                            <span className='supplemental'>Technologies: HTML, JavaScript, Java, JavaServer Pages, SQL and Hibernate</span>
+                            <span className='time-period'>November, 2015 - Fibraury, 2017</span>
+                        </div>
+                        <div className='position'>
+                            <span className='title'>Freelance Web Developer <i>- Self-Employed, India</i></span>
+                            <span className='supplemental'>Technologies: HTML, CSS, JavaScript, MySQL, AWS SDK, JavaServer Pages</span>
+                            <span className='time-period'>May, 2015 - August, 2015</span>
                         </div>
 
                         <hr />
@@ -74,6 +79,11 @@ class Resume extends Component {
                             <span className='title'>Cloudiolab (Personal Cloud Infrastructure)</span>
                             <span className='supplemental'>Technologies: Node.js, Databases, API Services, Docker, Swarm, Kubernetes</span>
                             <span className='time-period'>July, 2018 - Present</span>
+                        </div>
+                        <div className='project'>
+                            <span className='title'>Atlassian Confluence Integration with Cisco Webex (for Hochschule Heilbronn)</span>
+                            <span className='supplemental'>Technologies: JavaScript, Node.js, Confluence Server, Cisco Webex REST API,</span>
+                            <span className='time-period'>April, 2018 - July, 2018</span>
                         </div>
                         <div className='project'>
                             <span className='title'>Twitter Hashtag Search (THS)</span>
