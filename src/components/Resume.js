@@ -82,7 +82,7 @@ class Resume extends Component {
                         </div>
                         <div className='project'>
                             <span className='title'>Atlassian Confluence Integration with Cisco Webex (for Hochschule Heilbronn)</span>
-                            <span className='supplemental'>Technologies: JavaScript, Node.js, Confluence Server, Cisco Webex REST API,</span>
+                            <span className='supplemental'>Technologies: JavaScript, Node.js, Confluence Server, Cisco Webex REST API</span>
                             <span className='time-period'>April, 2018 - July, 2018</span>
                         </div>
                         <div className='project'>
