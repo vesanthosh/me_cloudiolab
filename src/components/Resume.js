@@ -38,7 +38,7 @@ class Resume extends Component {
                         </div>
                         <div className='position'>
                             <span className='title'>Freelance Software Engineer <i>- Self-Employed, India</i></span>
-                            <span className='supplemental'>Technologies: HTML, JavaScript, Java, JavaServer Pages, SQL and Hibernate</span>
+                            <span className='supplemental'>Technologies: HTML, JavaScript, Java, J2EE, JavaServer Pages, SQL and Hibernate</span>
                             <span className='time-period'>November, 2015 - Fibraury, 2017</span>
                         </div>
                         <div className='position'>
