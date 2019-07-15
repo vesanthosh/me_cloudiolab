@@ -21,7 +21,7 @@ class Resume extends Component {
                         <h3>Synopsis</h3>
                         <div className='synopsis'>
                             <span className='title'>
-                                I consider myself a virtualist, shifting focus to whatever the development' needs are. Technologist with wide variety of experience and a unique ability always kicks me to focus on the full stack development and wide range of technology that are evolving day by day.
+                                I consider myself a virtualist, shifting focus to whatever the development' needs are. Technologist with a wide variety of experience and a unique ability always kicks me to focus on full-stack development and a wide range of technologies that are evolving day by day.
                                     </span>
                         </div>
                         <hr />
