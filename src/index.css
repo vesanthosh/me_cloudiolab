@@ -10,14 +10,6 @@ body {
   background: linear-gradient(to right, #605C3C, #3C3B3F); */
   background-color: #fafafa;
 }
-
-  .name {
-    font-weight: normal;
-    margin: 0px;
-    padding-left: 5px;
-    padding-top: 50px;
-    font-size: 100px;
-   }
    
   body .content p {
     font-size: 17px;
@@ -34,7 +26,8 @@ body {
       }
 
     hr{
-      border-color: darkgray
+      border-color: #355959;
+      border-width: 8px;
     }
 
 code {
@@ -48,13 +41,13 @@ code {
 color: #211F1F;
 }
 .github:hover {
-  color:black; }
+  color:#355959; }
 
-.linkedin{
-  color: #007bb6;
+.twitter{
+  color: #1da1f2;
 }
-.linkedin:hover{
-  color:#02577e;
+.twitter:hover{
+  color:#008abe;
 }
 
 h1 small {
@@ -65,6 +58,7 @@ h1 small {
 
 h1, h2, h3, h4 {
   padding-left: 30px;
+  color: #355959;
 }
 
 .synopsis, .position, .education, .project {
@@ -73,19 +67,49 @@ h1, h2, h3, h4 {
   padding-left: 70px;
 }
 
-
 .title {
   display: block;
   margin-top: 0px;
   margin-left: -10px;
   padding-left: 10px;
+  color: #355959;
 }
 .supplemental {
   display: block;
   font-style: italic;
+  color: #64a2a2;
 }
 .time-period {
   display: block;
   font-size: smaller;
   color: #999;
+}
+
+.carousel-item {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+hr.light{
+  border-color: #355959;
+  border-width: 3px;
+}
+
+hr.medium{
+  border-color: #355959;
+  border-width: 5px;
+}
+
+hr.strong{
+  border-color: #355959;
+  border-width: 10px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
