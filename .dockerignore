@@ -3,6 +3,7 @@ npm-debug.log
 Dockerfile*
 docker-compose*
 yarn.lock
+package-lock.json
 .dockerignore
 .git
 .gitignore
