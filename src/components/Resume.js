@@ -30,7 +30,7 @@ class Resume extends Component {
                         </div>
                         <div className='position'>
                             <span className='title'><b>Software Engineer </b><i>- Avico Software Solutions, India</i></span>
-                            <span className='supplemental'><b>Technologies:</b> HTML, JavaScript, Java, JavaServer Pages, SQL and Hibernate</span>
+                            <span className='supplemental'><b>Technologies:</b> HTML/CSS, JavaScript, Java Servlets, JavaServer Pages, SQL and Hibernate</span>
                             <span className='time-period'>May 2015 - February 2017</span>
                         </div>
 
@@ -54,14 +54,14 @@ class Resume extends Component {
                         <hr />
                         <h3>Project</h3>
                         <div className='project'>
-                            <span className='title'><b>Cloudiolab</b> (Personal Cloud Infrastructure)</span>
+                            <span className='title'><b>Cloudiolab</b> (Private projects on cloud)</span>
                             <span className='supplemental'><b>Technologies:</b> Node.js, Databases, API Services, Docker and SWARM</span>
                             <span className='time-period'>July 2018 - Present</span>
                         </div>
                         <div className='project'>
-                            <span className='title'><b>Atlassian Confluence Integration with Cisco Webex</b> (for Hochschule Heilbronn)</span>
+                            <span className='title'><b>Integrating Atlassian Confluence with Cisco Webex</b> (for Hochschule Heilbronn)</span>
                             <span className='supplemental'><b>Technologies:</b> JavaScript, Node.js, Confluence Server, Cisco Webex REST API</span>
-                            <span className='time-period'>April 2018 - July 2018</span>
+                            <span className='time-period'>March 2018 - July 2018</span>
                         </div>
                         <div className='project'>
                             <span className='title'><b>Twitter Hashtag Search</b> (THS)</span>
